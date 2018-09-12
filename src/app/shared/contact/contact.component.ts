@@ -9,13 +9,14 @@ export class ContactComponent implements OnInit {
 
 
   latitude = 6.244203;
-    longitude = -75.581212;
-    minZoom = 14;
+  longitude = -75.581212;
+  minZoom = 14;
 
-    city = 'Medellín'
-    country = 'Colombia'
-    email = 'danielc.web@gmail.com';
-    skype = '@danielcb29';
+  city = 'Medellín';
+  country = 'Colombia';
+  email = 'danielc.web@gmail.com';
+  skype = '@danielcb29';
+
 
   constructor() { }
 

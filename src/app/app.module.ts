@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//rutes
+import { AppRoutingModule } from './app-routing.module';
+
 
 //Dependecies
 import { RoundProgressModule } from 'angular-svg-round-progressbar';
@@ -32,7 +35,8 @@ import { MapComponent } from './shared/map/map.component';
   ],
   imports: [
     BrowserModule,
-    RoundProgressModule
+    RoundProgressModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
