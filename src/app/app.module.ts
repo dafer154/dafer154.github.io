@@ -17,8 +17,8 @@ import { SkillComponent } from './pages/skill/skill.component';
 import { EducationComponent } from './pages/education/education.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
-import { ContactComponent } from './pages/contact/contact.component';
 import { MapComponent } from './shared/map/map.component';
+import {ContactComponent} from './shared/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -30,8 +30,8 @@ import { MapComponent } from './shared/map/map.component';
     EducationComponent,
     ServicesComponent,
     PortfolioComponent,
-    ContactComponent,
-    MapComponent
+    MapComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

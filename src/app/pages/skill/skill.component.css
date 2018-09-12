@@ -1,7 +1,8 @@
 /* === Skill Section === */
 .skills-section {
-    background: black;
-    color: #fff;
+    background: white;
+    color: black;
+    padding-bottom: 10%;
 }
 .skills-section .section-title{
     color: #fff;

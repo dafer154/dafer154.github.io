@@ -328,7 +328,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_person_area .person_details p {
-  font-size: 13px;
+  font-size: 19px;
   line-height: 24px;
   color: #333333;
   font-family: "Raleway", sans-serif;
@@ -1365,13 +1365,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .footer_inner {
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
-  padding: 80px 0px 60px 0px;
-  margin-top: 3px;
+  margin-top: 0px;
+  padding-bottom: 23px;
 }
 
 .footer_inner img {
   max-width: 100%;
-  margin-bottom: 40px;
 }
 
 .footer_inner ul li a {

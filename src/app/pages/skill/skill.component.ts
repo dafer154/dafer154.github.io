@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class SkillComponent implements OnInit {
 
   devSkills = {
-    frontEnd: '95%',
-    backEnd: '80%',
+    frontEnd: '60%',
+    backEnd: '70%',
     sourceControl: '90%',
     dataBase: '70%',
-    devOps: '30%',
+    devOps: '10%',
     iOT: '40%'
   }
 
@@ -29,7 +29,7 @@ circularData = {
     creativity: 90,
     confidence: 100,
     communication: 80,
-    english: 90,
+    english: 60,
     spanish: 100
 
   }

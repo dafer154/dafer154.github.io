@@ -42,3 +42,10 @@
 .biography ul li:last-child{
     border-bottom:0;
 }
+
+ul.list-check li:before {
+    content: "\F00C";
+    font-family: fontawesome;
+    color: #68c3a3;
+    margin-right: 10px;
+}
