@@ -1,12 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//rutes
+//routes
 import { AppRoutingModule } from './app-routing.module';
 
+// Keys
+import { googleMapsKey } from './app.keys';
 
 //Dependecies
 import { RoundProgressModule } from 'angular-svg-round-progressbar';
+import { AgmCoreModule } from '@agm/core';
+
 
 
 import { AppComponent } from './app.component';
@@ -38,7 +42,9 @@ import { HomeComponent } from './shared/home/home.component';
   imports: [
     BrowserModule,
     RoundProgressModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: googleMapsKey})
   ],
   providers: [],
   bootstrap: [AppComponent]

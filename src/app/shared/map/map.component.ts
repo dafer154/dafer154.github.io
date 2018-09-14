@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
+  
+
+  latitude = 3.404913;
+  longitude = -76.524231;
+  minZoom = 14;
 
   constructor() { }
 
