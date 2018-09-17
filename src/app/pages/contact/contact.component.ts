@@ -8,14 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class ContactComponent implements OnInit {
 
 
-  latitude = 6.244203;
-  longitude = -75.581212;
+  latitude = 3.404913;
+  longitude = -76.524231;
   minZoom = 14;
 
-  city = 'Medellín';
+  city = 'Cali';
   country = 'Colombia';
-  email = 'danielc.web@gmail.com';
-  skype = '@danielcb29';
+  email = 'zuluaaristi@gmail.com';
+  skype = '@david_fza';
 
 
   constructor() { }

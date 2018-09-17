@@ -291,11 +291,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_person_area .person_img {
-  max-width: 322px;
+  max-width: 400px;
 }
 
 .about_person_area .person_img img {
-  max-width: 100%;
+  max-width: 386px;
+  margin-top: 18%;
 }
 
 .about_person_area .person_img .download_btn {
@@ -470,10 +471,10 @@ body, p, h1, h2, h3, h4, h5, h6 {
   display: block;
   background: #fec608;
   text-align: center;
-  line-height: 44px;
+  line-height: 33px;
   border-radius: 20px;
   color: #222222;
-  font-size: 33px;
+  font-size: 21px;
   font-weight: 700;
   position: relative;
   overflow: hidden;
@@ -1364,7 +1365,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .footer_inner {
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: #f1f1f1;
   margin-top: 0px;
   padding-bottom: 23px;
 }

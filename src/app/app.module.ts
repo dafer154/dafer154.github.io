@@ -18,10 +18,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { SkillComponent } from './pages/skill/skill.component';
-import { ServicesComponent } from './pages/services/services.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
-import { MapComponent } from './shared/map/map.component';
-import {ContactComponent} from './shared/contact/contact.component';
+import {ContactComponent} from './pages/contact/contact.component';
 import { ResumeComponent } from './pages/resume/resume.component';
 import { HomeComponent } from './shared/home/home.component';
 
@@ -32,9 +30,7 @@ import { HomeComponent } from './shared/home/home.component';
     FooterComponent,
     AboutComponent,
     SkillComponent,
-    ServicesComponent,
     PortfolioComponent,
-    MapComponent,
     ContactComponent,
     ResumeComponent,
     HomeComponent

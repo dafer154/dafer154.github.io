@@ -1,0 +1,17 @@
+
+
+/*MAP*/
+.location-map {
+    padding: 4px;
+    border: 1px solid #eee;
+    border-bottom: 3px double #eee;
+}
+
+agm-map {
+    height: 350px;
+}
+
+.buttons-wrapper{
+    display: flex;
+    margin-bottom: 45px;
+}

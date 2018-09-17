@@ -7,7 +7,7 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ResumeComponent } from './pages/resume/resume.component';
 import { SkillComponent } from './pages/skill/skill.component';
-import { ServicesComponent } from './pages/services/services.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 const app_routes: Routes = [
     {path: '', component: AboutComponent},
@@ -15,7 +15,7 @@ const app_routes: Routes = [
     {path: 'resume', component: ResumeComponent},
     {path: 'portfolio', component: PortfolioComponent},
     {path: 'skill', component: SkillComponent},
-    {path: 'services', component: ServicesComponent},
+    {path: 'contact', component: ContactComponent},
     {path: '**', pathMatch: 'full', redirectTo: ''}
 
 ];

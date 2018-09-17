@@ -1,12 +1,25 @@
-.image-logo{
-    margin-top: -30%;
+.header {
+    background: #FEC606;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 150px 0px 200px;
 }
 
-@media (max-width : 640px) {
-    .tt-fullHeight{
-        height: 560px !important;
-    }
+.header .logo img {
+    max-width: 100%;
 }
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+
+/* prueba */
 
 #home {
 	background: url(/../assets/images/medellin.jpg) no-repeat center center;

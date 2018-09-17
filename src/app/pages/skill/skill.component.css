@@ -1,8 +1,14 @@
 /* === Skill Section === */
+
+.title-skill{
+    color: black !important;
+    border: 1px solid #c1c1c1;
+}
+
 .skills-section {
     background: white;
     color: black;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 .skills-section .section-title{
     color: #fff;
@@ -29,6 +35,12 @@
 .skill-progress {
     position: relative;
 }
+
+.skill-progress span{
+    color: black;
+    font-weight: bold;
+}
+
 .progress {
     height: 20px;
     margin-bottom: 40px;
