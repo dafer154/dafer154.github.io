@@ -21,7 +21,6 @@ import { SkillComponent } from './pages/skill/skill.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import {ContactComponent} from './pages/contact/contact.component';
 import { ResumeComponent } from './pages/resume/resume.component';
-import { HomeComponent } from './shared/home/home.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,6 @@ import { HomeComponent } from './shared/home/home.component';
     PortfolioComponent,
     ContactComponent,
     ResumeComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,

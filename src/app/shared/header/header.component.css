@@ -1,3 +1,73 @@
+
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Header Menu Area css
+============================================================================================ */
+.header_area {
+    background: #fec608;
+  }
+  
+  .header_area .navbar.navbar-default {
+    border: none;
+    border-radius: 0px;
+    background: transparent;
+    margin: 0px;
+  }
+  
+  .header_area .navbar.navbar-default .navbar-header .navbar-brand {
+    padding: 0;
+    display: block;
+    vertical-align: middle;
+    line-height: 76px;
+  }
+  
+  .header_area .navbar.navbar-default .navbar-header .navbar-brand img {
+    display: inline-block;
+  }
+  
+  .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li {
+    margin-right: 40px;
+  }
+  
+  .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li a {
+    padding: 0px;
+    background: transparent;
+    line-height: 80px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222222;
+    display: inline-block;
+    transition: all 400ms linear 0s;
+  }
+  
+  .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:hover a, .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.active a {
+    color: #fff;
+  }
+  
+  .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:last-child {
+    margin-right: 0px;
+  }
+  
+  .header_area.stricky-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+  }
+  
+  .header_area.stricky-fixed + section, .header_area.stricky-fixed + div, .header_area.stricky-fixed + .row {
+    margin-top: 80px;
+  }
+  
+  /* End Header Menu Area css
+  ============================================================================================ */
+  /*---------------------------------------------------- */
+  /*----------------------------------------------------*/
+
+
 .image-logo{
     margin-top: -30%;
 }
