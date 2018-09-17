@@ -1,50 +1,52 @@
-<section class="contact_area pad" id="contact">
-    <div class="main_title">
-        <h2>Contact Us</h2>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="left_contact_details wow fadeInUp animated">
-                <div class="buttons-wrapper">
-                    <div class="media">
-                        <div class="media-left">
-                            <i class="fa fa-map-marker"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4>City</h4>
-                            <p>{{city}},{{country}}</p>
+<!-- Contact Section -->
+<section id="contact" class="contact-section section-padding animated bounceInLeft">
+    <div class="container">
+
+        <div class="main_title">
+            <h2 class="title-skill">CONTACT</h2>
+        </div>
+
+        <div class="row">
+            <!-- No contact form for MVP -->
+            <div class="col-md-12">
+                <div class="row center-md text-center">
+                    <div class="col-md-4">
+                        <i class="fa fa-map-marker"></i>
+
+                        <address>
+                            <strong>City/Country</strong>
+                            {{city}}, {{country}}<br>
+                        </address>
+                    </div>
+
+                    <div class="col-md-4">
+                        <i class="fa fa-envelope-o"></i>
+                        <div class="contact-number">
+                            <strong>Email</strong>
+                            <a [href]="'mailto:' + email">{{email}}</a>
                         </div>
                     </div>
-                    <div class="media">
-                        <div class="media-left">
-                            <i class="fa fa-skype"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4>Skype</h4>
-                            <p>{{skype}}</p>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <div class="media-left">
-                            <i class="fa fa-envelope-o"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4>Email</h4>
-                            <p>{{email}}</p>
+
+                    <div class="col-md-4">
+                        <i class="fa fa-skype"></i>
+                        <div class="contact-number">
+                            <strong>Skype</strong>
+                            {{skype}}
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="location-map">
-            <agm-map [latitude]="latitude" [longitude]="longitude" [minZoom]="minZoom">
-                <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
-            </agm-map>
-        </div>
-    </div>
-</div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="location-map">
+                            <agm-map [latitude]="latitude" [longitude]="longitude" [minZoom]="minZoom">
+                                <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+                            </agm-map>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- End Contact Section -->
