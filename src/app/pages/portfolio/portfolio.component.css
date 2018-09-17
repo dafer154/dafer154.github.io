@@ -1,0 +1,142 @@
+
+
+/* Portfolio css
+============================================================================================ */
+.portfolio_area .porfolio_menu {
+    text-align: center;
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter {
+    text-align: center;
+    border-bottom: 5px solid #fff;
+    display: inline-block;
+    border-radius: 2.5px;
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter li {
+    display: inline-block;
+    margin-right: 45px;
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter li a {
+    font-size: 18px;
+    color: #222222;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 36px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter li a:before {
+    content: "";
+    height: 5px;
+    background: #fec608;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    transition: all 400ms linear 0s;
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter li:hover a:before, .portfolio_area .porfolio_menu .causes_filter li.active a:before {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter li:first-child a:before {
+    border-bottom-left-radius: 2.5px;
+    border-top-left-radius: 2.5px;
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter li:last-child {
+    margin-right: 0px;
+  }
+  
+  .portfolio_area .porfolio_menu .causes_filter li:last-child a:before {
+    border-bottom-right-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item {
+    margin-top: 40px;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_img {
+    position: relative;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_img:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_img img {
+    max-width: 100%;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_title {
+    text-align: center;
+    background: #fff;
+    transition: all 400ms linear 0s;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_title h4 {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 18px 0px 10px 0px;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_title h5 {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    color: #666666;
+    padding-bottom: 18px;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item:hover .portfolio_img:before {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item:hover .portfolio_title {
+    background: #fec608;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item:hover .portfolio_title h4 {
+    color: #fff;
+  }
+  
+  .portfolio_area .portfolio_list_inner .portfolio_item:hover .portfolio_title h5 {
+    color: #fff;
+  }
+  
+  /* End Portfolio css
+  ============================================================================================ */
