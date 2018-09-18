@@ -207,7 +207,7 @@
 /*----------------------------------------------------------------------------------*/
 
 .hire-section {
-    background: url(/../assets/images/front-end.png) no-repeat top center #68C3A3;
+    background: url('/../assets/img/front-end.png') no-repeat top center #68C3A3;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
