@@ -21,6 +21,7 @@ import { SkillComponent } from './pages/skill/skill.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import {ContactComponent} from './pages/contact/contact.component';
 import { ResumeComponent } from './pages/resume/resume.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ResumeComponent } from './pages/resume/resume.component';
     PortfolioComponent,
     ContactComponent,
     ResumeComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { ResumeComponent } from './pages/resume/resume.component';
 import { SkillComponent } from './pages/skill/skill.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+
 
 const app_routes: Routes = [
     {path: '', component: AboutComponent},
@@ -16,7 +18,9 @@ const app_routes: Routes = [
     {path: 'portfolio', component: PortfolioComponent},
     {path: 'skill', component: SkillComponent},
     {path: 'contact', component: ContactComponent},
-    {path: '**', pathMatch: 'full', redirectTo: ''}
+    {path: '404', component: NotFoundComponent},
+    {path: '**', redirectTo: '404'}
+
 
 ];
 
