@@ -196,6 +196,22 @@
     position: relative;
     overflow: hidden;
   }
+
+
+  .download-cv{
+    border-radius: 20px;
+    padding: 14px 20px;
+    background: #fec608;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .wrapp-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+  }
   
   .download_btn span {
     display: inline-block;
