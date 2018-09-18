@@ -185,7 +185,7 @@
   /* Download BTN area css
   ============================================================================================ */
   .download_btn {
-    display: block;
+    display: flex;
     background: #fec608;
     text-align: center;
     line-height: 33px;
@@ -300,7 +300,6 @@
     align-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 44px;
 }
 
 

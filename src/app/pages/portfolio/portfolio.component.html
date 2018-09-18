@@ -4,66 +4,18 @@
     </div>
     <div class="row">
         <div class="portfolio_list_inner">
-            <div class="col-md-4 photo marketing">
+            <div class="col-md-4 photo marketing" *ngFor="let portfolio of portfolioList; let i = index">
                 <div class="portfolio_item">
                     <div class="portfolio_img">
-                        <img src="assets/images/cier-sur.png" alt="">
+                        <img src={{portfolio.img}} alt="">
                     </div>
                     <div class="portfolio_title">
-                        <a href="#"><h4>Dreams visualization</h4></a>
+                        <a href="#"><h4>{{ portfolio.project }}</h4></a>
                         <div>
                             <ul class="list-check" style="text-align: left;">
-                                <li>Software Engineer</li>
-                                <li>UI Programming</li>
-                                <li>BackEnd Programming</li>
-                                <li>Service Oriented Architectures</li>
-                                <li>Data Base Design</li>
-                                <li>DevOps Culture</li>
+                                <li *ngFor="let tec of portfolio.technologies">{{tec}}</li>
                             </ul>
                         </div>
-                        <button>source</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 photo marketing">
-                <div class="portfolio_item">
-                    <div class="portfolio_img">
-                        <img src="assets/images/footer-logo.png" alt="">
-                    </div>
-                    <div class="portfolio_title">
-                        <a href="#"><h4>Dreams visualization</h4></a>
-                        <div>
-                            <ul class="list-check" style="text-align: left;">
-                                <li>Software Engineer</li>
-                                <li>UI Programming</li>
-                                <li>BackEnd Programming</li>
-                                <li>Service Oriented Architectures</li>
-                                <li>Data Base Design</li>
-                                <li>DevOps Culture</li>
-                            </ul>
-                        </div>
-                        <button>source</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 photo marketing">
-                <div class="portfolio_item">
-                    <div class="portfolio_img">
-                        <img src="assets/images/gimnasio.PNG" alt="">
-                    </div>
-                    <div class="portfolio_title">
-                        <a href="#"><h4>Dreams visualization</h4></a>
-                        <div>
-                            <ul class="list-check" style="text-align: left;">
-                                <li>Software Engineer</li>
-                                <li>UI Programming</li>
-                                <li>BackEnd Programming</li>
-                                <li>Service Oriented Architectures</li>
-                                <li>Data Base Design</li>
-                                <li>DevOps Culture</li>
-                            </ul>
-                        </div>
-                        <button>source</button>
                     </div>
                 </div>
             </div>
