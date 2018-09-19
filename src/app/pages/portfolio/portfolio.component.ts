@@ -13,21 +13,21 @@ export class PortfolioComponent implements OnInit {
       img : 'assets/images/portfolio/cier-sur.png',
       project: 'Objetos virtuales de aprendizaje',
       technologies: [
-        'Html5', 'Javascript', 'Jquery', 'CSS3, display(flex)', '@media'
+        'Html5', 'Javascript', 'JQuery', 'CSS3, display(flex)', '@media'
       ]
     },
     {
       img: 'assets/images/portfolio/gimnasio.PNG',
       project: 'Gimnasio de habilidades',
       technologies: [
-        'Django rest framework', 'Python', 'React', 'Postgrest', 'CSS3, display(flex)', 'Html5'
+        'Django rest framework', 'Python', 'React', 'PostgreSQL', 'CSS3, display(flex)', 'Html5'
       ]
     },
     {
       img : 'assets/images/portfolio/Cursos_estudiante.png',
       project: 'Evaluacion formativa - EVAFORM',
       technologies: [
-        'Python', 'Django-channels, Django-tenants', 'Postgrest', 'CSS3', 'Html5'
+        'Python', 'Django-channels, Django-tenants', 'PostgreSQL', 'CSS3', 'Html5', 'JQuery'
       ]
     }
   ];

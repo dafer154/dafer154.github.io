@@ -15,8 +15,8 @@ export class ResumeComponent implements OnInit {
       company: 'CIER Sur(Univalle), Cali, Colombia',
       description: [
         'Project GIMNASIO DE HABILIDADES',
-        'Back stack: Python, Django rest framework for the manage of API, PostgrestSQL, Postman',
-        'Front stack: Frontend: React, CSS3, Javascript with interfaces responsives and adaptatives with Flexbox and @media'
+        'Back stack: Python, Django rest framework for the manage of API, PostgreSQL, Postman',
+        'Front stack: Frontend: React, CSS3, JavaScript with interfaces responsives and adaptatives with Flexbox and @media'
       ]
     },
     {
@@ -25,7 +25,7 @@ export class ResumeComponent implements OnInit {
       company: 'CIER Sur(Univalle), Cali, Colombia',
       description: [
         'Project OBJETOS VIRTUALES DE APRENDIZAJE PARA EDUCACIÓN SUPERIOR',
-        'Technologies and skills: HTMl5, CSS3 with interfaces responsives and adaptatives with Flexbox and @media, Jquery and JavaScript.'
+        'Technologies and skills: HTMl5, CSS3 with interfaces responsives and adaptatives with Flexbox and @media, JQuery and JavaScript.'
       ]
     },
     {
@@ -39,7 +39,7 @@ export class ResumeComponent implements OnInit {
     },
     {
       date: 'Jun 15-Dec 15',
-      title: 'Software tester',
+      title: 'Software Tester',
       company: 'Banco de occidente, Cali, Colombia',
       description: [
         'Project SISTEMA DE CARTERA FACTORING',
@@ -57,7 +57,7 @@ export class ResumeComponent implements OnInit {
       company: 'Universidad del Valle, Cali, Colombia',
       description: [ 'Degree Project: Herramienta web para visualización de material educativo, en el aula de clase y evaluación continua', 
                       'Back Stack: Django, Django-channels, Django-tenant, PostgreSQL,',
-                      'front Stack: Bootstrap, JavaScript, CSS3, Html',
+                      'front Stack: Bootstrap, JavaScript, CSS3, Html, JQuery',
                       'The application allows teacher to evaluate students performance on real time. '
       ]
     },
@@ -65,7 +65,7 @@ export class ResumeComponent implements OnInit {
       date: 'Feb 09 - Mar 13',
       title: 'Tech, Technologist in systems information',
       company: 'Universidad del valle, Buenaventura, Colombia',
-      description: ['Monitor in the computer sales']
+      description: ['Computers Room Assistant']
     }
   ];
 

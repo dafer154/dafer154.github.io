@@ -16,7 +16,7 @@ const app_routes: Routes = [
     {path: 'about', component: AboutComponent},
     {path: 'resume', component: ResumeComponent},
     {path: 'portfolio', component: PortfolioComponent},
-    {path: 'skill', component: SkillComponent},
+    {path: 'skills', component: SkillComponent},
     {path: 'contact', component: ContactComponent},
     {path: '404', component: NotFoundComponent},
     {path: '**', redirectTo: '404'}
