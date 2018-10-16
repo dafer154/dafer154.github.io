@@ -1,5 +1,25 @@
-# Portafolio
+# StarMovieList
 
+This project is for visualizate my portfolio around the world. 
+this project was create for practice and learn Angular 6
+
+In this project you will find:
+
+- **About component:** show David's information. 
+- **Contact component:** can get email, map of ubication current, personal skype
+- **Portfolio component:** can get portfolio or project create for David Zuluaga
+- **Resume component:** can get the diferents companies, where David Zuluaga was work
+- **Skill component:** can get the diferents Skill and technologies that using David Zuluaga
+- **Not found component:** manage not found urls and not found resources
+- **Header component:** manage application header, with the Menu
+- **Footer component:** manage application footer
+- **App component:** main component
+- Styles, html, static images, Bootstrap 4
+**Deploy url:**  https://dafer154.github.io/portafolio/
+
+**Author:** David Fernando Zuluaga
+
+**Notes**:
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
 ## Development server

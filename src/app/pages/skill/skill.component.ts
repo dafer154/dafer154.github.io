@@ -8,13 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class SkillComponent implements OnInit {
 
   devSkills = {
-    frontEnd: '60%',
+    frontEnd: '75%',
     backEnd: '70%',
     sourceControl: '90%',
     dataBase: '70%',
-    devOps: '10%',
-    iOT: '40%'
-  }
+    devOps: '5%',
+  };
 
 circularConfig = {
     max: 100,
@@ -22,7 +21,7 @@ circularConfig = {
     background: '3a4149',
     responsive: true,
     radius: 140
-  }
+  };
 
 circularData = {
     leadership: 80,
@@ -31,8 +30,7 @@ circularData = {
     communication: 80,
     english: 60,
     spanish: 100
-
-  }
+  };
 
 
   constructor() { }

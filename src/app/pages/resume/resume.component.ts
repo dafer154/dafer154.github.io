@@ -11,7 +11,7 @@ export class ResumeComponent implements OnInit {
   experience: Array<any> = [
     {
       date: 'Feb 18 - Jul 18',
-      title: 'Fulltack Developer',
+      title: 'FullStack Developer',
       company: 'CIER Sur(Univalle), Cali, Colombia',
       description: [
         'Project GIMNASIO DE HABILIDADES',

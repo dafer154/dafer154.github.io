@@ -12,8 +12,7 @@
 }
 
 .about_person_area .person_img img {
-  max-width: 386px;
-  margin-top: 18%;
+  max-width: 290px;
 }
 
 .about_person_area .person_img .download_btn {
@@ -317,8 +316,9 @@
 }
 
 .img-about {
-  transform: rotate(270deg);
-  border-radius: 21px;
+  transform: rotate(360deg);
+  border-radius: 38px;
+  padding: 5%;
 }
 
 .biography {
